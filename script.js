@@ -59,7 +59,7 @@ setInterval(() => {
   // console.log(angle)
   translate(angleToVector(angle), pos, ball, speed=0.2);
   angle = angle % 360;
-}, 1);
+}, 5);
 
 ball.addEventListener('mouseover', () => {
   angle += 180;
